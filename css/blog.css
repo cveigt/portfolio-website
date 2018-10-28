@@ -1,0 +1,70 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+}
+
+header li:last-child {
+  opacity: 1;
+}
+
+header li:first-child {
+  opacity: 0.3;
+}
+
+header ul.social li {
+  opacity: 1;
+}
+
+h1 {
+    font-weight: 700;
+    text-align: left;
+    line-height: 1.5em;
+    font-size: 2.1em;
+    letter-spacing: 0.05em;
+    margin-top: 0px;
+}
+
+h1 span {
+  color: #37CED5;
+  font-size: 1.2em;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+#blog-post {
+  margin-top: 40px;
+  margin-bottom: 70px;
+}
+
+#blog-post h3, h2 {
+  text-align: left;
+  font-weight: 700;
+}
+
+#blog-post h3 {
+  font-size: 1.02em;
+  color: #37CED5;
+  letter-spacing: 0.3em;
+  margin-top: -110px;
+  margin-left: 40px;
+}
+
+#blog-post h2 {
+  font-size: 1.85em;
+  color: #ffffff;
+  margin-left: 40px;
+  margin-top: 15px;
+  margin-bottom: 6px;
+}
+
+#blog-post .line {
+  width: 60px;
+  height: 2px;
+  background: #37CED5;
+  display: inline-block;
+  margin-left: -998px;
+}

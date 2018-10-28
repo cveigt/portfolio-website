@@ -1,0 +1,141 @@
+font-family: 'Libre Baskerville', serif;
+font-family: 'Slabo 27px', serif;
+font-family: 'Slabo 13px', serif;
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+}
+
+header {
+  height: 160px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1em;
+  letter-spacing: 5px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+header a {
+  float: left;
+  color: #000000;
+}
+
+header a.logo {
+  margin-right: 50px;
+}
+
+header ul {
+  list-style-type: none;
+  float: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+header ul.navigation {
+  float: left;
+}
+
+header ul.social {
+  float: right;
+}
+
+li {
+  float: left;
+}
+
+header li {
+  margin-right: 80px;
+  opacity: 0.3;
+}
+
+header li:first-child {
+  opacity: 1;
+}
+
+header li a:hover {
+  text-decoration: none;
+}
+
+header .social li {
+  margin-right: 15px;
+  opacity: 1;
+}
+
+header .social li:last-child {
+  margin-right: 0;
+}
+
+.intro h1, p {
+  text-align: left;
+  font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  margin-left: 6px;
+}
+
+.intro h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 2.3em;
+  letter-spacing: 0.04em;
+  margin-bottom: 20px;
+  margin-top: 80px;
+}
+
+.intro p {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.5em;
+  line-height: 1.75em;
+  margin-bottom: 60px;
+}
+
+.intro p a {
+  color: #f12545;
+}
+
+.intro p a:hover {
+  text-decoration: none;
+}
+
+.row {
+  margin-bottom: 12px;
+}
+
+.row a {
+  text-decoration: none;
+}
+
+.row:last-child {
+  margin-bottom: 0;
+}
+
+#image img:hover {
+  opacity: 0.2;
+  transition-timing-function: ease-in;
+  transition: 0.3s;
+}
+
+#image .text {
+  position: relative;
+  bottom: 50px;
+  left: 50px;
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  letter-spacing: 3px;
+  color: #000;
+  visibility: hidden;
+}
+
+#image:hover .text {
+  visibility: visible;
+}
+
+footer {
+  padding-top: 100px;
+  padding-bottom: 80px;
+  text-align: center;
+}
