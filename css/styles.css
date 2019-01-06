@@ -80,15 +80,15 @@ header .social li:last-child {
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
   font-size: 2.3em;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.01em;
   margin-bottom: 20px;
   margin-top: 80px;
 }
 
 .intro p {
   font-family: 'Libre Baskerville', serif;
-  font-size: 1.5em;
-  line-height: 1.75em;
+  font-size: 1.4em;
+  line-height: 1.65em;
   margin-bottom: 60px;
 }
 
