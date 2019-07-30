@@ -10,6 +10,10 @@ header li:first-child {
   opacity: 1;
 }
 
+header a {
+  color: #FFFFFF;
+}
+
 img.hero {
   width: 1130px;
 }
@@ -21,12 +25,13 @@ img.hero {
   margin-top: 50px;
   text-align: left;
   margin-left: 4px;
+  color: #FFFFFF;
 }
 
 .project .line {
   width: 60px;
   height: 2px;
-  background: #37CED5;
+  background: #FFEDB9;
   margin-bottom: -24px;
   float: left;
   margin-left: 4px;
@@ -37,6 +42,7 @@ img.hero {
   margin-top: 20px;
   opacity: 0.5;
   margin-left: 4px;
+  color: #FFFFFF;
 }
 
 .project p {
@@ -46,6 +52,8 @@ img.hero {
   line-height: 2em;
   margin-top: 30px;
   display: inline-block;
+  color: #FFEDB9;
+  opacity: 0.5;
 }
 
 .project img {
@@ -54,7 +62,8 @@ img.hero {
 }
 
 .project span a {
-  color: #000;
+  opacity: 0.5;
+  color: #FFFFFF;
 }
 
 .project span a:hover {
