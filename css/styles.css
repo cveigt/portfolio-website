@@ -79,17 +79,22 @@ header .social li:last-child {
 .intro h1 {
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
-  font-size: 2.3em;
+  font-size: 2.5em;
   letter-spacing: 0.01em;
-  margin-bottom: 20px;
-  margin-top: 80px;
+  margin-bottom: 30px;
+  margin-top: 140px;
 }
 
 .intro p {
-  font-family: 'Libre Baskerville', serif;
-  font-size: 1.4em;
-  line-height: 1.65em;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2em;
+  line-height: 1.8em;
+  letter-spacing: 0.03em;
   margin-bottom: 60px;
+  color: #838383;
+  font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
 }
 
 .intro p a {
