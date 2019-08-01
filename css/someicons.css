@@ -15,6 +15,10 @@ img {
   display: block;
 }
 
+img.hero {
+  width: 75%;
+}
+
 a.download {
   background-color: #000000;
   color: #ffffff;
