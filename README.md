@@ -4,7 +4,7 @@ Welcome to my [personal website](http://veigt.com/).
 
 ## Installation
 
-At the moment, you can only fork and clone this project. Will make a better way to run it locally int he future.
+You just need to fork and clone this project.
 
 - `git clone https://github.com/cveigt/veigt.com`
 - You're all set!
