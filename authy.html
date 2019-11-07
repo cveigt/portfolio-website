@@ -57,55 +57,58 @@
 			<img src="img/authy01-hero.png" alt="" class="hero">
 			<div class="project">
 				<h2>
-					PASTE DESIGN SYSTEM
+					AUTHY
 				</h2>
 				<div class="line"></div>
-				<span>Design Systems</span>
+				<span>Two-Factor Authentication Product</span>
 				<p>
-					In late 2017, I moved from being embeeded into a product team, to become part of the Twilio Console design team. At the time, Twilio had a design system, however it wasn't a scalable one.
+					Authy is the leader 2FA app in the market with millions of users and accounts protected. Its most powerful features are encrypted backups, multi-device support, and easy-to-use.
 				</br>
 				</br>
-When I joined the team, the system had some issues:
+				Through the years, the app has gone from being a simple single code generator to support multiple authentication protocols, expanding its capabilities and becoming one of the most reliables 2FA solutions to end-users and enterprise.  Nowadays, Authy is available for iOS, Android, Desktop and support most of their devices.
 <br>
 <br>
-- There wasn't anyone owning and leading the system.
+<strong>The Challenge:</strong>
 <br>
-- There were many dependencies from other teams.
+In principle, all Authy needed to do was to display a 7-digit authentication code every 20 seconds. The real challenge was that if you know what 2FA is, you also know that while it can make your accounts safer, it can also lock you out if you lose the second factor, being this your phone or computer in this case.
 <br>
-- Unmaintenance and inconsistency in both, design and react libraries.
 <br>
-- Lack of vision.
-</br>
-</br>
-<strong>My role:</strong>
-Due to the resources constrains, I split my time between my asigned products and design systems. I started working along with one of the best designer I've ever known who lead the project while I did more design work.
-
-From audit and components inventory to build and spec patterns and components, from setting naming conventions, to fix and define perceptual patterns in systematical ways, my role was more on the design side than the actual front-end side where the foundations of the new systems were built.
-				</p>
+One of the first I decided to work on was on building a simple but practical style guide and kind of a basic design system to set some rules and principles up.				</p>
 				<img src="img/authy001.png" alt="">
-				<img src="img/ds002.png" alt="">
 				<p>
-					For someone like me with no previous experience building a design system, it was probably my best explorative experience so far. I also worked with a very talented team of seven people remotely distributed. 2 people in San Francisco, 4 more in Ukraine, and 1 more in NY.
+					<strong>Onboarding:</strong>
+					<br>
+					As a 2-Factor Authentication product, you have to take into account that people's accounts can be hacked, especially when they enable 2FA to secure such services as crypto wallets, and financial or banking accounts. That means that the registration process needs to be clear and collect what we need to keep the account as safe as possible in the future. 
 					<br>
 					<br>
-While the engineers were establishing the new architecture and fixing outdated components, I spent my time speccing components, defining usage, behavior, etc.. as well as defining the system structure of the design library.
+					Additionally, I designed a walkthrough explaining the concept of 2FA and how Authy works. That changed later when we got some data and insights from the type of users that were using the app and how they were using it.
+					<br>
+					<br>
+					<strong>Tokens:</strong>
+					The main player in our app has been always de token or code view. Here's where you see what you need, the second factor. While all the apps were just showing an account name and a flat code by that time, we wanted to go beyond, so we built a clean and beautiful screen with 4 elements:
+					<br>
+					<br>
+					1. Service and account name.
+					<br>
+					2. The authentication code.
+					<br>
+					3. An animated timer.
+					<br>
+					4. Service Logo.
 				</p>
-				<img src="img/ds003.png" alt="">
-				<img src="img/ds004.png" alt="">
+				<img src="img/authy002.png" alt="">
+				<img src="img/authy003.png" alt="">
 				<p>
 				<strong>Result:</strong>
-We went from manually storing and versioning a style guide in Google Drive and a Google Sheet to having a properly structured set of Sketch libraries, living in Abstract and collectively maintained.
+				People loved the fact that each account is different and easy to identify because of the logo. Later, we made it even more engaging by making the background and font colors a part of the brand.
 <br>
 <br>
-On the other hand, an updated and refactored react library with clearer documentation and onboarding guides for developers on how to use, how to contribute back, and how to request fixes, improvement, or brand new components.
+We also improved the authentication code when we noticed that people enter the code wrong sometimes, so I tried breaking the code down in chunks to improve readability. Another important improvement was the expiration time, I extended it to 30 seconds. By the time we couldn't afford as much analytics as we wanted, meaning that we only tracked the most important events, additional to that, I used to dig into app store reviews, Twitter comments, and support emails to get insights and identify user needs.
 <br>
 <br>
-<strong>The future:</strong>
-Once we finished it and met our initial goal, I started gathering feedback from both sides, product design, and front-end teams. Later on, I got pulled into other products full-time again but I keep contributing as much as I can.
-<br>
-<br>
-<a href="https://paste.twilio.design/" target="_blank">Check out the public version 0.1.</a>
+And finally, after we find the need for a desktop app, we added the two features that boosted our user growth. Until these days, backups and multi-device are our most loved features and biggest differentiators over other competitors.
 				</p>
+				<img src="img/authy004.png" alt="">
 				<span><a href="index.html">Back to projects</a></span>
 			</div>
 		</div>
